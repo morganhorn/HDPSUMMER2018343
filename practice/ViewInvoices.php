@@ -81,7 +81,7 @@ if ($result->num_rows > 0) {
 } else {
     echo "0 results";
 }?>
-	<td><a class="btn btn-dark" href="invoicr-master/example/index.php">Invoice</a></td>
+	<td><a class="btn btn-dark" href="index.php">Invoice</a></td>
 </tr>
 </table>
 <?php include_once('Footer.php');?>
