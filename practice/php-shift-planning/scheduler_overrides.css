@@ -1,0 +1,35 @@
+#dp .scheduler_default_timeheader_cell_inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dp .scheduler_default_timeheader_float {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#dp .scheduler_default_rowheader_inner {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+#dp .scheduler_default_event_bar, #dp .scheduler_default_event_bar_inner {
+    height: 6px;
+}
+
+#dp .scheduler_default_event_inner
+{
+    padding-top: 10px;
+    padding-left: 6px;
+}
+
+#dp .scheduler_default_event_float_inner {
+    padding-top: 11px;
+}
+
+#dp .scheduler_default_event_float_inner::after {
+    top: 13px;
+}
